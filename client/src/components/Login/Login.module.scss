@@ -1,0 +1,41 @@
+.root{
+    
+    font-family:'Roboto',sans-serif;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 auto;
+  padding:20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.icon {
+    color: #3d5afe;
+}
+
+.btn{
+    color:white !important;
+    width:100%;
+ background-color:#3d5afe !important;
+ &:hover{
+     background-color:#0031ca !important;
+ }
+}
+.login{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.email,.pass{
+    width:100%;
+}
+.forget{
+    text-align:left;
+    align-self:flex-start;
+    font-size:12px;
+    font-weight:300;
+    opacity:0.8;
+    color:#8187ff;
+}
